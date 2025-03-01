@@ -1,0 +1,749 @@
+﻿@using EmlakProjesi.Models.Entity;
+@model List<TBLEVLER>
+@{
+    Layout = null;
+}
+
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tenant a Real estate category Responsive Web Template | Home page : W3layouts</title>
+    <link rel="stylesheet" href="~/starter/assets/css/style-starter.css">
+</head>
+<body>
+    <!-- Topmenu-4 block -->
+    <section class="w3l-top-menu-4">
+        <header class="top-menu4">
+            <div class="wrapper">
+                <div class="d-grid align-topmenu4">
+                    <div class="top-menu4-left d-grid align-items-menu4">
+                        <ul class="social-icons">
+                            <li class="facebook"><a href="#facebook"><span class="fa fa-facebook"></span></a></li>
+                            <li class="twitter"><a href="#twitter"><span class="fa fa-twitter"></span></a></li>
+                            <li class="instagram"><a href="#instagram"><span class="fa fa-instagram"></span></a></li>
+                            <li class="google-plus"><a href="#google-plus"><span class="fa fa-google-plus"></span></a></li>
+                            <li class="linkedin"><a href="#linkedin"><span class="fa fa-linkedin"></span></a></li>
+                        </ul>
+                    </div>
+                    <div class="top-menu4-right">
+                        <ul class="top-menu-right">
+                            <li><a href="tel:+404 11-22-89"> <span class="fa fa-phone"> </span>+(90) 507 45-66-89</a> <span>Whatsapp İletişim</span> </li>
+                            <li><a href="mailto:mail@estate.com"> <span class="fa fa-envelope-open-o"> </span>emlak@gmail.com</a> <span>E-Mail Adresimiz</span> </li>
+                            <li><p> <span class="fa fa-clock-o"> </span> Sabah(09)- Akşam(12)</p> <span>Çalışma Saatlerimiz</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </section>
+    <!-- /Topmenu-4 block -->
+    <!-- Headers-4 block -->
+    <section class="w3l-header-4">
+        <header id="headers4-block">
+            <div class="wrapper">
+                <div class="d-grid nav-mobile-block header-align">
+                    <div class="logo">
+                        <a class="brand-logo" href="index.html"><span>Kiracı</span></a>
+                        <!-- if logo is image enable this
+                        <a class="brand-logo" href="#index.html">
+                            <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+                        </a> -->
+                    </div>
+                    <input type="checkbox" id="nav" />
+                    <label class="nav" for="nav"></label>
+                    <nav>
+                        <label for="drop" class="toggle">Menu</label>
+                        <input type="checkbox" id="drop">
+                        <ul class="menu">
+                            <li><a href="index.html">Ana Sayfa</a></li>
+                            <li><a href="about.html">Hakkımızda</a></li>
+                            <li><a href="services.html">Hizmetlerimiz</a></li>
+                            <li><a href="contact.html">İletişim</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+    </section>
+    <!-- Headers-4 block -->
+    <!-- covers4 block -->
+    <section class="w3l-covers-4">
+        <div id="covers4-block">
+            <!-- main-slider -->
+            <div class="main-slider">
+                <div class="csslider infinity" id="slider1">
+                    <input type="radio" name="slides" checked="checked" id="slides_1" />
+                    <input type="radio" name="slides" id="slides_2" />
+                    <input type="radio" name="slides" id="slides_3" />
+                    <input type="radio" name="slides" id="slides_4" />
+                    <ul>
+                        <li class="slider-bg-1">
+                            <div class="slider-info-wrapper">
+                                <div class="slider-info">
+                                    <div class="d-grid slide-two-col">
+                                        <div class="slide-left-text">
+                                            <h3>Muhteşem Evler Bulalım</h3>
+                                            <h3><span>10.000₺' den başlayan fiyatlarla</span></h3>
+                                            <p>
+                                                Hayalinizdeki evi bulun! ✅ En iyi fırsatlar, en uygun fiyatlar ve geniş portföyümüzle hemen keşfedin. 🏡✨
+                                            </p>
+                                            <a href="about.html" class="btn button-style">Başlayın</a>
+                                            <a href="contact.html" class="btn button-style1">Bize Ulaşın</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="slider-bg-2">
+                            <div class="slider-info-wrapper">
+                                <div class="slider-info">
+                                    <div class="d-grid slide-two-col">
+                                        <div class="slide-left-text">
+                                            <h3>Kurumsal firmalara kiralık apartmanlar</h3>
+                                            <h3><span> aylık 120.000₺' den başlayan fiyatlarla</span></h3>
+                                            <p>
+                                               Bankalara , şubeleri bulunan firmalara büyük ödeme kolaylığı sağlıyoruz. Apartmanlarımız minimum 5 katlıdır.
+                                            </p>
+                                            <a href="about.html" class="btn button-style">Devamını Okuyun</a>
+                                            <a href="contact.html" class="btn button-style1">Bize Ulaşın</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="slider-bg-3">
+                            <div class="slider-info-wrapper">
+                                <div class="slider-info">
+                                    <div class="d-grid slide-two-col">
+                                        <div class="slide-left-text">
+                                            <h3>Hayallerinizi Süsleyen Villalar</h3>
+                                            <h3><span>aylık 40.000₺' den başlayan fiyatlarla</span></h3>
+                                            <p>
+                                                Hayalinizdeki Lüks Villa Sizi Bekliyor! 🏡✨
+
+                                                Muhteşem manzarası, modern tasarımı ve geniş yaşam alanlarıyla bu villa, konfor ve prestiji bir arada sunuyor. Özel bahçesi, havuzu ve huzurlu atmosferiyle ayrıcalıklı bir yaşam sizi bekliyor!
+
+                                                Hemen iletişime geçin ve bu eşsiz fırsatı kaçırmayın! 🚀🔑
+                                            </p>
+                                            <a href="about.html" class="btn button-style">Devamını Okuyun</a>
+                                            <a href="contact.html" class="btn button-style1">Bize Ulaşın</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="arrows">
+                        <label for="slides_1"></label>
+                        <label for="slides_2"></label>
+                        <label for="slides_3"></label>
+                    </div>
+                    <div class="navigation">
+                        <div>
+                            <label for="slides_1"></label>
+                            <label for="slides_2"></label>
+                            <label for="slides_3"></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /main-slider -->
+        </div>
+    </section>
+    <!-- covers4 block -->
+    <section class="w3l-feature-8">
+        <div class="features-main">
+            <div class="wrapper">
+                <div class="features">
+                    <div class="feature-1">
+                        <div class="feature-body">
+                            <div class="feature-images">
+                                <span class="fa fa-rebel"></span>
+                            </div>
+                            <div class="feature-info">
+                                <a href="#property">
+                                    <h3 class="feature-titel">Vizyonumuz</h3>
+                                </a>
+                                <p class="feature-text">
+                                    Kiracılarımıza Özel Rahatlıklar ve Yardımlar! 🏡
+
+                                    Kiracılarımız için her zaman yanınızdayız! Hızlı bakım hizmetleri, esnek ödeme seçenekleri ve 7/24 destekle yaşamınızı kolaylaştırıyoruz. Her an yanınızda olup, konforlu bir yaşam sunmak için buradayız.
+
+                                    Bize katılın, rahatlığı hissedin! 🌟
+                                </p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feature-2">
+                        <div class="feature-body">
+                            <div class="feature-images">
+                                <span class="fa fa-line-chart"></span>
+                            </div>
+                            <div class="feature-info">
+                                <a href="#property">
+                                    <h3 class="feature-titel">Stratejimiz</h3>
+                                    <p class="feature-text">
+                                        Stratejimiz: Müşteri Memnuniyetini Ön Planda Tutmak!
+
+                                        Bizim için öncelik, müşterilerimize en yüksek hizmeti sunmaktır. Esnek ödeme planları, hızlı çözümler ve kesintisiz destekle her zaman yanlarındayız. Müşterilerimizin ihtiyaçlarına göre şekillenen stratejimiz, onlara daha konforlu, güvenli ve huzurlu bir yaşam alanı sunmayı hedefler.
+
+                                        Siz de bu stratejinin bir parçası olun, farkı yaşayın! 🌟
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feature-3">
+                        <div class="feature-body">
+                            <div class="feature-images">
+                                <span class="fa fa-rocket"></span>
+                            </div>
+                            <div class="feature-info">
+                                <a href="#property">
+                                    <h3 class="feature-titel">Memnuniyet</h3>
+                                    <p class="feature-text">
+                                        Müşteri Memnuniyetimiz: Her Zaman Birinci Önceliğimiz!
+
+                                        Müşteri memnuniyeti, işimizin temel taşını oluşturur. Her adımda, müşterilerimizin ihtiyaçlarına en hızlı ve etkili şekilde yanıt vererek, onların beklentilerini aşmayı hedefliyoruz. Kaliteli hizmet, güvenilir çözümler ve sürekli destek ile her zaman yanınızdayız. Sizin memnuniyetiniz, bizim başarımızdır!
+
+                                        Bizimle bir adım atın, memnuniyetin farkını yaşayın! 🌟
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- grids block 4 -->
+    <section class="w3l-grids-4">
+        <div id="grids4-block">
+            <div class="wrapper">
+                <h3 class="heading-title">Kiralık Ev İlanlarımız</h3>
+                <div class="owl-carousel owl-theme">
+                    @foreach (var x in Model)
+                    {
+
+                    <div class="item">
+                        <div class="grids4-info">
+                            <a href="#properties-single"><img src="@x.GORSEL" alt="" style="width:325px"; height="200:px" /></a>
+                            <div class="info-bg">
+                                <h5><a href="#properties-single">@x.BASLIK</a></h5>
+                                <span class="price">@x.FIYAT</span>
+                                <p>@x.ACIKLAMA</p>
+                                <ul>
+                                    <li><span class="fa fa-bed"></span> @x.YATAK</li>
+                                    <li><span class="fa fa-bath"></span> @x.BANYO</li>
+                                    <li><span class="fa fa-share-square-o"></span> @x.METREKARE Metrekare</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> 
+                    }
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- grids block 4 -->
+    <!-- js -->
+    <script src="~/starter/assets/js/jquery-3.3.1.min.js"></script> <!-- jquery latest version 3.4.1 -->
+    <script src="~/starter/assets/js/owl.carousel.js"></script> <!-- owl carousel -->
+
+    <script>$(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 0,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true
+                    },
+                    600: {
+                        items: 2,
+                        nav: false,
+                        margin: 20
+                    },
+                    1000: {
+                        items: 3,
+                        nav: true,
+                        loop: true,
+                        margin: 20
+                    }
+                }
+            })
+        })</script>
+    <!-- grid -->
+    <section class="w3l-grids-9">
+        <div class="grid-top-9">
+            <div class="wrapper">
+                <h3 class="heading-title">Bölgelere Göre Mülklerimiz</h3>
+                <div class="d-grid grid-col-2 grid-element-9">
+                    <div class="left-grid-ele-9 grid-bg1">
+                        <div class="sub-wid-grid-9">
+                            <h4 class="text-grid-9"><a href="#properties-single">New Jersy</a></h4>
+                            <p class="sub-para">Perfect City!</p>
+                            <span>8  Mülk</span>
+                        </div>
+                    </div>
+                    <div class="left-grid-ele-9 grid-bg2">
+                        <div class="sub-wid-grid-9">
+                            <h4 class="text-grid-9"><a href="#properties-single">Paris</a></h4>
+                            <p class="sub-para">Yaşamak için en iyi yer</p>
+                            <span>8 Mülk</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-grid grid-col-3 grid-element-9 margin-top">
+                    <div class="left-grid-ele-9 grid-bg3">
+                        <div class="sub-wid-grid-9">
+                            <h4 class="text-grid-9"><a href="#properties-single">London</a></h4>
+                            <p class="sub-para">Mükemmel Şehir!</p>
+                            <span>15 Mülk</span>
+                        </div>
+                    </div>
+                    <div class="left-grid-ele-9 grid-bg4">
+                        <div class="sub-wid-grid-9">
+                            <h4 class="text-grid-9"><a href="#properties-single">Japan</a></h4>
+                            <p class="sub-para">Yaşamak için en iyi yer</p>
+                            <span>28 Mülk</span>
+                        </div>
+                    </div>
+                    <div class="left-grid-ele-9 grid-bg5">
+                        <div class="sub-wid-grid-9">
+                            <h4 class="text-grid-9"><a href="#properties-single">France</a></h4>
+                            <p class="sub-para">Yaşamak için en iyi yer</p>
+                            <span>12 Mülk</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //grid -->
+
+    <div class="w3l-products-4">
+        <!-- Products4 block -->
+        <div id="products4-block" class="text-center">
+            <h3 class="heading-title">Gayrimenkullerimiz</h3>
+            <div class="wrapper">
+
+                <input id="tab1" type="radio" name="tabs" checked>
+                <label class="tabtle" for="tab1">Kiralama</label>
+
+                <input id="tab2" type="radio" name="tabs">
+                <label class="tabtle" for="tab2">Satış</label>
+
+                <input id="tab3" type="radio" name="tabs">
+                <label class="tabtle" for="tab3">Apartmanlarımız</label>
+
+                <input id="tab4" type="radio" name="tabs">
+                <label class="tabtle" for="tab4">Villarımız</label>
+
+                <section id="content1" class="tab-content text-left">
+                    <div class="d-grid grid-col-3">
+                        <div class="product">
+                            <a href="#properties-single"><img src="~/starter/assets/images/property1.jpg" class="img-responsive" alt="" /></a>
+                            <!-- <div class="product-details">
+                                <a href="#properties-single">Product name</a>
+                                <span class="price">$240</span>
+                            </div> -->
+                            <div class="info-bg">
+                                <h5><a href="#properties-single">Kiralık Lüks Villa</a></h5>
+                                <span class="price">Aylık 49000₺</span>
+                                <p>Hayalinizdeki yaşam alanı, kiralık lüks villada sizi bekliyor! Geniş bahçe, özel havuz ve şık iç mekanlarıyla bu villa, konfor ve prestiji bir arada sunuyor. Huzurlu bir yaşam için ideal bir seçenek!</p>
+                                <ul>
+                                    <li><span class="fa fa-bed"></span> 3</li>
+                                    <li><span class="fa fa-bath"></span> 3</li>
+                                    <li><span class="fa fa-share-square-o"></span> 240 Metrekare</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <a href="#properties-single"><img src="~/starter/assets/images/property4.jpg" class="img-responsive" alt="" /></a>
+                            <!-- <div class="product-details">
+                                <a href="#properties-single">Product name</a>
+                                <span class="price">$100</span>
+                            </div> -->
+                            <div class="info-bg">
+                                <h5><a href="#properties-single">Kiralık Düzen Apartmanı</a></h5>
+                                <span class="price">Aylık 17000₺</span>
+                                <p>Düzen Apartmanı'nda kiralık daireler sizi bekliyor! Modern tasarımı ve konforlu yaşam alanlarıyla, merkezi lokasyonu sayesinde rahat bir yaşam sunuyor. Hemen keşfedin, bu fırsatı kaçırmayın!</p>
+                                <ul>
+                                    <li><span class="fa fa-bed"></span> 1</li>
+                                    <li><span class="fa fa-bath"></span> 2</li>
+                                    <li><span class="fa fa-share-square-o"></span> 90 Metrekare</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <a href="#properties-single"> <img src="~/starter/assets/images/p-slide4.jpg" class="img-responsive" alt="" /></a>
+                            <!-- <div class="product-details">
+                                <a href="#properties-single">Product name</a>
+                                <span class="price">$55</span>
+                            </div> -->
+                            <div class="info-bg">
+                                <h5><a href="#properties-single">Kiralık Lüks Daire</a></h5>
+                                <span class="price">Aylık 23000₺</span>
+                                <p>Modern tasarımı, geniş iç mekanları ve yüksek kaliteli detaylarıyla bu lüks daire, konforlu bir yaşam vaat ediyor. Merkezi konumu, harika manzarası ve eşsiz imkanlarıyla sizlere ayrıcalıklı bir yaşam sunuyor. Kaçırmayın, hemen keşfedin!</p>
+                                <ul>
+                                    <li><span class="fa fa-bed"></span> 2</li>
+                                    <li><span class="fa fa-bath"></span> 2</li>
+                                    <li><span class="fa fa-share-square-o"></span> 120 Metrekare</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="content2" class="tab-content text-left">
+                    <div class="d-grid grid-col-3">
+                        <div class="product">
+                            <a href="#properties-single"><img src="~/starter/assets/images/property2.jpg" class="img-responsive" alt="" /></a>
+                            <!-- <div class="product-details">
+                                <a href="#properties-single">Product name</a>
+                                <span class="price">$150</span>
+                            </div> -->
+                            <div class="info-bg">
+                                <h5><a href="#properties-single">Luxury villa for sale</a></h5>
+                                <span class="price">$ 240/month</span>
+                                <p>Nulla ex nunc, interdum nec egestas nec, dapibus ac mauris. Vivamus id tempor nisl.</p>
+                                <ul>
+                                    <li><span class="fa fa-bed"></span> 3</li>
+                                    <li><span class="fa fa-bath"></span> 3</li>
+                                    <li><span class="fa fa-share-square-o"></span> 1200 sq ft</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <a href="#properties-single"><img src="~/starter/assets/images/property3.jpg" class="img-responsive" alt="" /></a>
+                            <!-- <div class="product-details">
+                                <a href="#properties-single">Product name</a>
+                                <span class="price">$149</span>
+                            </div> -->
+                            <div class="info-bg">
+                                <h5><a href="#properties-single">Apartment for sale</a></h5>
+                                <span class="price">$ 240/month</span>
+                                <p>Nulla ex nunc, interdum nec egestas nec, dapibus ac mauris. Vivamus id tempor nisl.</p>
+                                <ul>
+                                    <li><span class="fa fa-bed"></span> 3</li>
+                                    <li><span class="fa fa-bath"></span> 3</li>
+                                    <li><span class="fa fa-share-square-o"></span> 1200 sq ft</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <a href="#properties-single"><img src="~/starter/assets/images/p-slide1.jpg" class="img-responsive" alt="" /></a>
+                            <!-- <div class="product-details">
+                                <a href="#properties-single">Product name</a>
+                                <span class="price">$69</span>
+                            </div> -->
+                            <div class="info-bg">
+                                <h5><a href="#properties-single">Home for sale</a></h5>
+                                <span class="price">$ 240/month</span>
+                                <p>Nulla ex nunc, interdum nec egestas nec, dapibus ac mauris. Vivamus id tempor nisl.</p>
+                                <ul>
+                                    <li><span class="fa fa-bed"></span> 3</li>
+                                    <li><span class="fa fa-bath"></span> 3</li>
+                                    <li><span class="fa fa-share-square-o"></span> 1200 sq ft</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="content3" class="tab-content text-left">
+                    <div class="d-grid grid-col-3">
+                        <div class="product">
+                            <a href="#properties-single"><img src="~/starter/assets/images/property1.jpg" class="img-responsive" alt="" /></a>
+                            <!-- <div class="product-details">
+                                <a href="#properties-single">Product name</a>
+                                <span class="price">$240</span>
+                            </div> -->
+                            <div class="info-bg">
+                                <h5><a href="#properties-single">Park avenue apartment</a></h5>
+                                <span class="price">$ 240/month</span>
+                                <p>Nulla ex nunc, interdum nec egestas nec, dapibus ac mauris. Vivamus id tempor nisl.</p>
+                                <ul>
+                                    <li><span class="fa fa-bed"></span> 3</li>
+                                    <li><span class="fa fa-bath"></span> 3</li>
+                                    <li><span class="fa fa-share-square-o"></span> 1200 sq ft</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <a href="#properties-single"><img src="~/starter/assets/images/property4.jpg" class="img-responsive" alt="" /></a>
+                            <!-- <div class="product-details">
+                                <a href="#properties-single">Product name</a>
+                                <span class="price">$100</span>
+                            </div> -->
+                            <div class="info-bg">
+                                <h5><a href="#properties-single">Luxury apartment</a></h5>
+                                <span class="price">$ 240/month</span>
+                                <p>Nulla ex nunc, interdum nec egestas nec, dapibus ac mauris. Vivamus id tempor nisl.</p>
+                                <ul>
+                                    <li><span class="fa fa-bed"></span> 3</li>
+                                    <li><span class="fa fa-bath"></span> 3</li>
+                                    <li><span class="fa fa-share-square-o"></span> 1200 sq ft</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <a href="#properties-single"> <img src="~/starter/assets/images/p-slide4.jpg" class="img-responsive" alt="" /></a>
+                            <!-- <div class="product-details">
+                                <a href="#properties-single">Product name</a>
+                                <span class="price">$55</span>
+                            </div> -->
+                            <div class="info-bg">
+                                <h5><a href="#properties-single">Building apartment</a></h5>
+                                <span class="price">$ 240/month</span>
+                                <p>Nulla ex nunc, interdum nec egestas nec, dapibus ac mauris. Vivamus id tempor nisl.</p>
+                                <ul>
+                                    <li><span class="fa fa-bed"></span> 3</li>
+                                    <li><span class="fa fa-bath"></span> 3</li>
+                                    <li><span class="fa fa-share-square-o"></span> 1200 sq ft</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="content4" class="tab-content text-left">
+                    <div class="d-grid grid-col-3">
+                        <div class="product">
+                            <a href="#properties-single"><img src="~/starter/assets/images/property2.jpg" class="img-responsive" alt="" /></a>
+                            <!-- <div class="product-details">
+                                <a href="#properties-single">Product name</a>
+                                <span class="price">$895</span>
+                            </div> -->
+                            <div class="info-bg">
+                                <h5><a href="#properties-single">Luxury villa</a></h5>
+                                <span class="price">$ 240/month</span>
+                                <p>Nulla ex nunc, interdum nec egestas nec, dapibus ac mauris. Vivamus id tempor nisl.</p>
+                                <ul>
+                                    <li><span class="fa fa-bed"></span> 3</li>
+                                    <li><span class="fa fa-bath"></span> 3</li>
+                                    <li><span class="fa fa-share-square-o"></span> 1200 sq ft</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <a href="#properties-single"><img src="~/starter/assets/images/property3.jpg" class="img-responsive" alt="" /></a>
+                            <!-- <div class="product-details">
+                                <a href="#properties-single">Product name</a>
+                                <span class="price">$99</span>
+                            </div> -->
+                            <div class="info-bg">
+                                <h5><a href="#properties-single">Home villas for you</a></h5>
+                                <span class="price">$ 240/month</span>
+                                <p>Nulla ex nunc, interdum nec egestas nec, dapibus ac mauris. Vivamus id tempor nisl.</p>
+                                <ul>
+                                    <li><span class="fa fa-bed"></span> 3</li>
+                                    <li><span class="fa fa-bath"></span> 3</li>
+                                    <li><span class="fa fa-share-square-o"></span> 1200 sq ft</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <a href="#properties-single"><img src="~/starter/assets/images/p-slide1.jpg" class="img-responsive" alt="" /></a>
+                            <!-- <div class="product-details">
+                                <a href="#properties-single">Product name</a>
+                                <span class="price">$69</span>
+                            </div> -->
+                            <div class="info-bg">
+                                <h5><a href="#properties-single">Rental villas</a></h5>
+                                <span class="price">$ 240/month</span>
+                                <p>Nulla ex nunc, interdum nec egestas nec, dapibus ac mauris. Vivamus id tempor nisl.</p>
+                                <ul>
+                                    <li><span class="fa fa-bed"></span> 3</li>
+                                    <li><span class="fa fa-bath"></span> 3</li>
+                                    <li><span class="fa fa-share-square-o"></span> 1200 sq ft</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <!-- Products4 block -->
+    </div>
+    <section class="w3l-companies-hny-6">
+        <!-- /grids -->
+        <div class="companies-layout">
+            <div class="wrapper">
+                <h3 class="heading-title">Müşterilerimiz</h3>
+                <div class="grid grid-column-5">
+
+                    <div class="column">
+                        <div class="company-gd">
+                            <a href="#client"><img class="img-responsive" src="~/starter/assets/images/client1.png" alt="client"> </a>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="company-gd">
+                            <a href="#client"><img class="img-responsive" src="~/starter/assets/images/client2.png" alt="client"> </a>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="company-gd">
+                            <a href="#client"><img class="img-responsive" src="~/starter/assets/images/client3.png" alt="client"> </a>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="company-gd">
+                            <a href="#client"><img class="img-responsive" src="~/starter/assets/images/client4.png" alt="client"> </a>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="company-gd">
+                            <a href="#client"><img class="img-responsive" src="~/starter/assets/images/client5.png" alt="client"> </a>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="company-gd">
+                            <a href="#client"><img class="img-responsive" src="~/starter/assets/images/client6.png" alt="client"> </a>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="company-gd">
+                            <a href="#client"><img class="img-responsive" src="~/starter/assets/images/client1.png" alt="client"> </a>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="company-gd">
+                            <a href="#client"><img class="img-responsive" src="~/starter/assets/images/client2.png" alt="client"> </a>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="company-gd">
+                            <a href="#"><img class="img-responsive" src="~/starter/assets/images/client3.png" alt="client"> </a>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="company-gd">
+                            <a href="#client"><img class="img-responsive" src="~/starter/assets/images/client4.png" alt="client"> </a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- //grids -->
+    </section>
+
+
+
+
+    <!-- subscribe -->
+    <section class="w3l-subscribe-1">
+        <div class="wrapper">
+            <h4>Özel Teklifler İçin Kayıt Olun</h4>
+            <h3 class="heading-title">Son Haberleri Öğrenin</h3>
+            <div class="form">
+                <form action="#" method="post" class="subscribe-form">
+                    <input type="email" name="email" placeholder="E-Mailinizi Girin" required>
+                    <button class="btn">Abone ol</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- //subscribe -->
+    <!-- footer-29 block -->
+    <section class="w3l-footer-29-main">
+        <div class="footer-29">
+            <div class="wrapper">
+                <div class="d-grid grid-col-4 footer-top-29">
+                    <div class="footer-list-29 footer-1">
+                        <h6 class="footer-title-29">İletişim Bilgilerimiz</h6>
+                        <ul>
+                            <li><p><span class="fa fa-map-marker"></span> Adres: İstiklal Caddesi No: 45, 3. Kat, Beşiktaş, İstanbul</p></li>
+                            <li><a href="tel:+7-800-999-800"><span class="fa fa-phone"></span> +(90)-255-979-8568</a></li>
+                            <li><a href="mailto:estate-mail@support.com" class="mail"><span class="fa fa-envelope-open-o"></span> emlak@gmail.com</a></li>
+                        </ul>
+                        <div class="main-social-footer-29">
+                            <a href="#facebook" class="facebook"><span class="fa fa-facebook"></span></a>
+                            <a href="#twitter" class="twitter"><span class="fa fa-twitter"></span></a>
+                            <a href="#instagram" class="instagram"><span class="fa fa-instagram"></span></a>
+                            <a href="#google-plus" class="google-plus"><span class="fa fa-google-plus"></span></a>
+                            <a href="#linkedin" class="linkedin"><span class="fa fa-linkedin"></span></a>
+                        </div>
+                    </div>
+                    <div class="footer-list-29 footer-2">
+                        <ul>
+                            <h6 class="footer-title-29">Kategoriler</h6>
+                            <li><a href="#link">Apartmanlar (15)</a></li>
+                            <li><a href="#link">Evler (120)</a></li>
+                            <li><a href="#link">Villalar (19)</a></li>
+                            <li><a href="#link">Parakende (04)</a></li>
+                            <li><a href="#link">Mülkerler (5)</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-list-29 footer-3">
+                        <div class="properties">
+                            <h6 class="footer-title-29">Son Eklenen Mülkler</h6>
+                            <a href="#blog-single"><img src="~/starter/assets/images/blog-3.jpg" class="img-responsive" alt="" /><p>Satılık Aktekke Apartmanları <span>37000₺</span></p></a>
+                            <a href="#blog-single"><img src="~/starter/assets/images/blog-2.jpg" class="img-responsive" alt="" /><p>Kiralık Lüks Villa<span>49000₺</span></p></a>
+                            <a href="#blog-single"><img src="~/starter/assets/images/blog-4.jpg" class="img-responsive" alt="" /><p>Satılık Apartmanlar<span>24000₺</span></p></a>
+                        </div>
+                    </div>
+                    <div class="footer-list-29 footer-4">
+                        <ul>
+                            <h6 class="footer-title-29">Linkler</h6>
+                            <li><a href="about.html">Şirket Hakkında</a></li>
+                            <li><a href="#featured">Öne çıkan mülkler</a></li>
+                            <li><a href="#team">Profesyonel Acenteler</a></li>
+                            <li><a href="#blog"></a>Mülk Blogu</li>
+                            <li><a href="contact.html">İletişime geçin</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="d-grid grid-col-2 bottom-copies">
+                    <p class="copy-footer-29">© 2025 Kiracı. Tüm hakları saklıdır | Tasarım: Emlak</a></p>
+                    <ul class="list-btm-29">
+                        <li><a href="#link">Güvenlik Potikaları</a></li>
+                        <li><a href="#link">Hizmet Şartları</a></li>
+                        <li>
+                            <select name="carlist" form="carform">
+                                <option value="Language">Türkçe</option>
+                                <option value="Language">Language 1</option>
+                                <option value="Language">Language 2</option>
+                                <option value="Language">Language 3</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //footer-29 block -->
+    <!-- move top -->
+    <button onclick="topFunction()" id="movetop" title="Go to top">
+        <span class="fa fa-angle-up"></span>
+    </button>
+    <script>// When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("movetop").style.display = "block";
+        } else {
+            document.getElementById("movetop").style.display = "none";
+        }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        }</script>
+    <!-- /move top -->
+</body>
+</html>
